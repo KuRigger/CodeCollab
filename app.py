@@ -8,7 +8,15 @@ socketio = SocketIO(app)
 
 @app.route('/')
 def index():
+    return render_template('main.html')
+
+@app.route('/')
+def index():
     return render_template('terminal.html')
+
+@app.route('/')
+def index():
+    return render_template('teach.html')
 
 @socketio.on('text update')
 def handle_text_update(json, methods=['GET', 'POST']):
