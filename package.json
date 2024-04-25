@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "python3 app.py"
+    "start": "python3.12.2 app.py"
   },
   "author": "",
   "license": "ISC"
